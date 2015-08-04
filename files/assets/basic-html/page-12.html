@@ -1,0 +1,456 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>Simplot Newsletter Summer 2015</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+        CURRENT_PAGE = "12";
+        MAIN_PAGE     = "index.html";
+        FILES_FOLDER  = "files";
+
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        
+	    STATIC_FOLDER = ".";
+	    DYNAMIC_FOLDER = "./..";
+
+	    PUBLICATION_NAME = "Simplot Newsletter Summer 2015";
+
+	    CURRENT_VERSION = "2.6.40";
+
+	    LANGS = ['en','de','es','fi','fr','it','ja','nl','no','pl','pt','ru','sv','zh'];
+	    PUBLICATION_TYPE = "catalog";
+
+
+	var main = function () {
+
+		loadScript('./javascript/localizator.js',function(){});
+
+	    if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+	        var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+			var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+			loadScript(url,function(){});
+		}
+
+	}
+
+	if (!!window.addEventListener) {
+		window.addEventListener('load', main);
+	} else {
+		window.attachEvent('onload', main);
+	}
+
+	function loadScript(url, callback){
+		var head = document.getElementsByTagName("head")[0];
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = url;
+		head.appendChild(script);
+		if (script.readyState){
+			script.onreadystatechange = function(){
+				if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+					script.onreadystatechange = null;
+					callback();
+				}
+			};
+		} else {
+			script.onload = function(){
+				callback();
+			};
+		}
+	}
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C3C8C8,endColorstr=#C3C8C8);
+	zoom:1;
+	
+	background:rgb(195,200,200);
+	background:rgba(195,200,200, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px">
+	    <img id="bodyBg" class="bodyBg" src="./../flash/image/inner_bg.jpg" alt="Background Image" />
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+				<a class="tocButton toolbarLink internalLink" href="./toc.html" id="tocLink">
+					<img class="iconToolbar" src="styles/toc.png" alt="Table of Contents" />
+					<img class="iconToolbar mobile" src="styles/toc-mobile.png" alt="Table of Contents" />
+					<span id="tocLabel" class="titleTOCMenu"></span>
+				</a>
+            
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/Simplot Newsletter Summer 2015.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-11.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;12 / 12</span>
+
+
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-11.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">12 / 12</span>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 612px; height: 792px; margin: 40px 0 0 -306px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0012.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:97.095960%;left:6.535948%;width:9.150327%;height:1.010101%;font-size:0.300000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b>12 Summer 2015</b>
+						</p>
+						<p class="textItem testString" style="top:4.671717%;left:40.032680%;width:21.568627%;height:4.924242%;font-size:1.388235em;color:#FFFFFF;font-family:Forza;">
+							<b><i>COMPANY</i></b>
+						</p>
+						<p class="textItem testString" style="top:8.207071%;left:40.522876%;width:20.751634%;height:5.681818%;font-size:1.640640em;color:#B5A49C;font-family:Forza;">
+							<b>BRIEFS</b>
+						</p>
+						<p class="textItem " style="top:24.242424%;left:5.882353%;width:56.045752%;height:3.787879%;font-size:1.100000em;color:#CE100D;font-family:Forza;">
+							<b>Simplot Plant Closings Handled</b>
+						</p>
+						<p class="textItem " style="top:27.020202%;left:5.882353%;width:56.045752%;height:3.787879%;font-size:1.100000em;color:#CE100D;font-family:Forza;">
+							<b>with Employee Professionalism</b>
+						</p>
+						<p class="textItem testString" style="top:31.439394%;left:7.352941%;width:39.705882%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							When the Simplot Food Group embarked on an ambitious
+						</p>
+						<p class="textItem " style="top:32.828283%;left:5.882353%;width:40.032680%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							effort to design, build and commission a new state-of-the-
+						</p>
+						<p class="textItem " style="top:34.217172%;left:5.882353%;width:40.686275%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							art food plant in Caldwell, Idaho several years ago, a difficult
+						</p>
+						<p class="textItem " style="top:35.606061%;left:5.882353%;width:40.359477%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							decision was made to close three older plants in Aberdeen,
+						</p>
+						<p class="textItem " style="top:36.994949%;left:5.882353%;width:14.542484%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Caldwell and Nampa.
+						</p>
+						<p class="textItem " style="top:38.383838%;left:7.352941%;width:41.176471%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							The new Idaho Plant, built adjacent to the site of the original
+						</p>
+						<p class="textItem " style="top:39.898990%;left:5.882353%;width:39.869281%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Caldwell plant, was the largest expansion in the company’s
+						</p>
+						<p class="textItem " style="top:41.287879%;left:5.882353%;width:40.032680%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							history. The plant has proved to be a progressive, proactive
+						</p>
+						<p class="textItem " style="top:42.676768%;left:5.882353%;width:41.339869%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							response to market challenges, which has allowed Simplot to
+						</p>
+						<p class="textItem " style="top:44.065657%;left:5.882353%;width:34.313725%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							maintain a competitive edge in a very fluid market.
+						</p>
+						<p class="textItem " style="top:45.454545%;left:7.352941%;width:37.908497%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							The Aberdeen, Nampa and original Caldwell processing
+						</p>
+						<p class="textItem " style="top:46.843434%;left:5.882353%;width:39.869281%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							facilities were an important part of Simplot’s history, but at
+						</p>
+						<p class="textItem " style="top:48.232323%;left:5.882353%;width:41.176471%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							some point in time every competitive business is required to
+						</p>
+						<p class="textItem " style="top:49.621212%;left:5.882353%;width:41.993464%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							look at facilities and their infrastructure and balance the costs
+						</p>
+						<p class="textItem " style="top:51.010101%;left:5.882353%;width:41.503268%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							of maintaining older buildings and equipment, or investing in
+						</p>
+						<p class="textItem " style="top:52.398990%;left:5.882353%;width:13.562092%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							newer technologies.
+						</p>
+						<p class="textItem " style="top:53.787879%;left:7.352941%;width:33.986928%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							John Coulter, Simplot’s EHS Manager, credited all
+						</p>
+						<p class="textItem " style="top:55.176768%;left:5.882353%;width:42.320261%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							employees at the plants and the professional manner in which
+						</p>
+						<p class="textItem " style="top:56.565657%;left:5.882353%;width:41.339869%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							the plant closings were handled over the last year and half of
+						</p>
+						<p class="textItem " style="top:57.954545%;left:5.882353%;width:6.862745%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							operation.
+						</p>
+						<p class="textItem " style="top:59.343434%;left:7.352941%;width:39.379085%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							“The plants are now closed and the employees have gone
+						</p>
+						<p class="textItem " style="top:60.732323%;left:5.882353%;width:40.849673%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							on to other endeavors within and outside of Simplot, but it’s
+						</p>
+						<p class="textItem " style="top:62.121212%;left:5.882353%;width:43.137255%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							important they be recognized for the commitment they showed
+						</p>
+						<p class="textItem " style="top:63.510101%;left:5.882353%;width:42.483660%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							to the safety and well-being of their fellow employees,” Coulter
+						</p>
+						<p class="textItem " style="top:64.898990%;left:5.882353%;width:3.104575%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							said.
+						</p>
+						<p class="textItem " style="top:67.297980%;left:5.882353%;width:73.366013%;height:3.787879%;font-size:1.100000em;color:#CE100D;font-family:Forza;">
+							<b>Simplot Enters into Agreement to Deliver</b>
+						</p>
+						<p class="textItem " style="top:70.075758%;left:5.882353%;width:60.130719%;height:3.787879%;font-size:1.100000em;color:#CE100D;font-family:Forza;">
+							<b>High Resolution Satellite Imagery</b>
+						</p>
+						<p class="textItem " style="top:75.252525%;left:7.352941%;width:37.908497%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Airbus Defense and Space and Simplot are launching a
+						</p>
+						<p class="textItem " style="top:76.641414%;left:5.882353%;width:42.973856%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							project to deliver Pl&#233;iades very high-resolution satellite imagery
+						</p>
+						<p class="textItem " style="top:78.030303%;left:5.882353%;width:37.745098%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							to Simplot customers. In the United States, Simplot will
+						</p>
+						<p class="textItem " style="top:79.419192%;left:5.882353%;width:42.156863%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							monitor customer and company fields distributed over several
+						</p>
+						<p class="textItem " style="top:80.808081%;left:5.882353%;width:43.137255%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							states during the growing season. This imagery will be acquired
+						</p>
+						<p class="textItem " style="top:82.196970%;left:5.882353%;width:41.503268%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							at key crop growth stages, and will be assessed for in-season
+						</p>
+						<p class="textItem " style="top:83.585859%;left:5.882353%;width:8.823529%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							adjustments.
+						</p>
+						<p class="textItem " style="top:84.974747%;left:7.352941%;width:38.725490%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Satellite imagery provided during the growing season will
+						</p>
+						<p class="textItem " style="top:86.363636%;left:5.882353%;width:41.830065%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							allow Simplot to collect data on crop conditions, and pinpoint
+						</p>
+						<p class="textItem " style="top:87.752525%;left:5.882353%;width:40.032680%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							variations that could be related to specific pest, nutrition or
+						</p>
+						<p class="textItem " style="top:89.141414%;left:5.882353%;width:8.660131%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							water issues.
+						</p>
+						<p class="textItem " style="top:90.530303%;left:7.352941%;width:38.725490%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Using the imagery, Simplot will be able to cover its entire
+						</p>
+						<p class="textItem " style="top:91.919192%;left:5.882353%;width:42.973856%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							geographic footprint to create a precise and detailed database.
+						</p>
+						<p class="textItem " style="top:75.252525%;left:50.980392%;width:42.647059%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							This advanced mapping will enable Simplot to provide growers
+						</p>
+						<p class="textItem " style="top:76.641414%;left:50.980392%;width:42.320261%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							with crop change detection analysis and estimate the possible
+						</p>
+						<p class="textItem " style="top:78.030303%;left:50.980392%;width:21.405229%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							impacts this may have on yield.
+						</p>
+						<p class="textItem " style="top:79.419192%;left:52.450980%;width:36.437908%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Simplot hopes it will become possible in the future to
+						</p>
+						<p class="textItem " style="top:80.808081%;left:50.980392%;width:38.562092%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							diagnose crop issues through field comparisons allowing
+						</p>
+						<p class="textItem " style="top:82.196970%;left:50.980392%;width:35.294118%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Simplot to guide crop production management and
+						</p>
+						<p class="textItem " style="top:83.585859%;left:50.980392%;width:38.398693%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							optimization decisions in real time. Factors such as seed
+						</p>
+						<p class="textItem " style="top:84.974747%;left:50.980392%;width:42.973856%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							density, fertilizer, water and other inputs could be adjusted on a
+						</p>
+						<p class="textItem " style="top:86.363636%;left:50.980392%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							sub-field level with pinpoint accuracy.
+						</p>
+						<p class="textItem " style="top:87.752525%;left:52.450980%;width:39.869281%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							“The Pl&#233;iades images collected at key crop stages will fully
+						</p>
+						<p class="textItem " style="top:89.141414%;left:50.980392%;width:41.830065%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							support more sustainable farming practices while saving time
+						</p>
+						<p class="textItem " style="top:90.530303%;left:50.980392%;width:42.647059%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							and cutting costs,” said Allan Fetters, director of technology for
+						</p>
+						<p class="textItem " style="top:91.919192%;left:50.980392%;width:17.647059%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Simplot Grower Solutions.
+						</p>
+						<p class="textItem " style="top:44.696970%;left:52.941176%;width:41.013072%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							All the plants averaged a Total Incident Rate (TIR) under the
+						</p>
+						<p class="textItem " style="top:46.085859%;left:51.470588%;width:42.156863%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							national industry rate, and Aberdeen finished Fiscal Year 2015
+						</p>
+						<p class="textItem " style="top:47.474747%;left:51.470588%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							with zero OSHA recordable incidents.
+						</p>
+						<p class="textItem " style="top:48.863636%;left:52.941176%;width:39.215686%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Coulter said anyone who has been part of a plant closure,
+						</p>
+						<p class="textItem " style="top:50.252525%;left:51.470588%;width:36.601307%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							realizes it is a tough time in the life of that facility and
+						</p>
+						<p class="textItem " style="top:51.641414%;left:51.470588%;width:37.745098%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							its employees. Emotions are running high and it can be
+						</p>
+						<p class="textItem " style="top:53.030303%;left:51.470588%;width:41.013072%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							difficult to maintain concentration on the tasks that must be
+						</p>
+						<p class="textItem " style="top:54.419192%;left:51.470588%;width:42.320261%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							accomplished. But business must continue until the doors are
+						</p>
+						<p class="textItem " style="top:55.808081%;left:51.470588%;width:36.601307%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							closed and keeping everyone safe has to be a priority.
+						</p>
+						<p class="textItem " style="top:57.196970%;left:52.941176%;width:38.888889%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							“During the closure process the plants continued making
+						</p>
+						<p class="textItem " style="top:58.585859%;left:51.470588%;width:41.013072%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							their production goals and keeping employees safe, which is
+						</p>
+						<p class="textItem " style="top:59.974747%;left:51.470588%;width:42.156863%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							a remarkable achievement,” Coulter said “Meeting these goals
+						</p>
+						<p class="textItem " style="top:61.363636%;left:51.470588%;width:39.379085%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							is a testimony to the professionalism and integrity of each
+						</p>
+						<p class="textItem " style="top:62.752525%;left:51.470588%;width:19.117647%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							plant’s staff and employees.
+						</p>
+						<p class="textItem testString" style="top:31.565657%;left:81.045752%;width:10.294118%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>Simplot’s Nampa</i></b>
+						</p>
+						<p class="textItem " style="top:32.954545%;left:81.045752%;width:11.437908%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>location was one of</i></b>
+						</p>
+						<p class="textItem " style="top:34.343434%;left:81.045752%;width:13.071895%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>three locations closed</i></b>
+						</p>
+						<p class="textItem " style="top:35.732323%;left:81.045752%;width:10.130719%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>as a result of the</i></b>
+						</p>
+						<p class="textItem " style="top:37.121212%;left:81.045752%;width:12.418301%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>opening of the Idaho</i></b>
+						</p>
+						<p class="textItem " style="top:38.510101%;left:81.045752%;width:10.294118%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>Plant in Caldwell.</i></b>
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-1.html">1</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-2.html">2</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-3.html">3</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-4.html">4</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-5.html">5</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-6.html">6</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-7.html">7</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-8.html">8</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-9.html">9</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-10.html">10</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-11.html">11</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink currPage" href="./page-12.html">12</a>
+
+				<a style="color:#675C53;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

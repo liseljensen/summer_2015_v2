@@ -1,0 +1,403 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>Simplot Newsletter Summer 2015</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+        CURRENT_PAGE = "5";
+        MAIN_PAGE     = "index.html";
+        FILES_FOLDER  = "files";
+
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        
+	    STATIC_FOLDER = ".";
+	    DYNAMIC_FOLDER = "./..";
+
+	    PUBLICATION_NAME = "Simplot Newsletter Summer 2015";
+
+	    CURRENT_VERSION = "2.6.40";
+
+	    LANGS = ['en','de','es','fi','fr','it','ja','nl','no','pl','pt','ru','sv','zh'];
+	    PUBLICATION_TYPE = "catalog";
+
+
+	var main = function () {
+
+		loadScript('./javascript/localizator.js',function(){});
+
+	    if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+	        var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+			var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+			loadScript(url,function(){});
+		}
+
+	}
+
+	if (!!window.addEventListener) {
+		window.addEventListener('load', main);
+	} else {
+		window.attachEvent('onload', main);
+	}
+
+	function loadScript(url, callback){
+		var head = document.getElementsByTagName("head")[0];
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = url;
+		head.appendChild(script);
+		if (script.readyState){
+			script.onreadystatechange = function(){
+				if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+					script.onreadystatechange = null;
+					callback();
+				}
+			};
+		} else {
+			script.onload = function(){
+				callback();
+			};
+		}
+	}
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C3C8C8,endColorstr=#C3C8C8);
+	zoom:1;
+	
+	background:rgb(195,200,200);
+	background:rgba(195,200,200, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px">
+	    <img id="bodyBg" class="bodyBg" src="./../flash/image/inner_bg.jpg" alt="Background Image" />
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+				<a class="tocButton toolbarLink internalLink" href="./toc.html" id="tocLink">
+					<img class="iconToolbar" src="styles/toc.png" alt="Table of Contents" />
+					<img class="iconToolbar mobile" src="styles/toc-mobile.png" alt="Table of Contents" />
+					<span id="tocLabel" class="titleTOCMenu"></span>
+				</a>
+            
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/Simplot Newsletter Summer 2015.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-4.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;5 / 12</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-6.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-4.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">5 / 12</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-6.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 612px; height: 792px; margin: 40px 0 0 -306px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0005.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:97.095960%;left:92.483660%;width:0.653595%;height:1.010101%;font-size:0.300000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b>5</b>
+						</p>
+						<p class="textItem " style="top:97.095960%;left:84.150327%;width:6.862745%;height:1.010101%;font-size:0.300000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b>Summer 2015</b>
+						</p>
+						<p class="textItem testString" style="top:75.252525%;left:7.352941%;width:36.764706%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							The building of Simplot’s new corporate headquarters
+						</p>
+						<p class="textItem " style="top:76.641414%;left:5.882353%;width:40.686275%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							involves a great deal of different building materials. Here’s a
+						</p>
+						<p class="textItem " style="top:78.030303%;left:5.882353%;width:38.071895%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							look at how to put some of those materials into context:
+						</p>
+						<p class="textItem " style="top:79.419192%;left:7.679739%;width:39.379085%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• 16,800 yards of concrete or enough concrete to build
+						</p>
+						<p class="textItem " style="top:80.808081%;left:10.457516%;width:23.529412%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							45 miles of standard city sidewalk.
+						</p>
+						<p class="textItem " style="top:82.196970%;left:7.679739%;width:40.686275%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• 1,200 tons of steel reinforcing or nearly enough steel to
+						</p>
+						<p class="textItem " style="top:83.585859%;left:10.457516%;width:22.385621%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							build 400 full size pickup trucks.
+						</p>
+						<p class="textItem " style="top:84.974747%;left:7.679739%;width:40.686275%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• 515 tons of structural steel or enough to build nine U.S.
+						</p>
+						<p class="textItem " style="top:86.363636%;left:10.457516%;width:8.169935%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Army tanks.
+						</p>
+						<p class="textItem " style="top:87.752525%;left:7.679739%;width:41.176471%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• Heaviest beam is 18,500 pounds or about as heavy as a
+						</p>
+						<p class="textItem " style="top:89.141414%;left:10.457516%;width:13.235294%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							full size 18-wheeler.
+						</p>
+						<p class="textItem " style="top:90.530303%;left:7.679739%;width:20.751634%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• Six miles of cast iron pipe.
+						</p>
+						<p class="textItem " style="top:33.585859%;left:7.352941%;width:38.725490%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Once completed, the building will not only be the newest
+						</p>
+						<p class="textItem " style="top:34.974747%;left:5.882353%;width:37.581699%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							building in Boise, but it will be a modern office building
+						</p>
+						<p class="textItem " style="top:36.363636%;left:5.882353%;width:41.666667%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							incorporating an open design that is focused on providing an
+						</p>
+						<p class="textItem " style="top:37.752525%;left:5.882353%;width:23.692810%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							efficient and productive workplace.
+						</p>
+						<p class="textItem " style="top:39.141414%;left:7.352941%;width:37.254902%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							In addition, the new headquarters will now allow for the
+						</p>
+						<p class="textItem " style="top:40.530303%;left:5.882353%;width:41.830065%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							consolidation of many employees in one location. About 800
+						</p>
+						<p class="textItem " style="top:41.919192%;left:5.882353%;width:42.320261%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Simplot Treasure Valley Idaho employees will be located to the
+						</p>
+						<p class="textItem " style="top:43.308081%;left:5.882353%;width:18.464052%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							new headquarters building.
+						</p>
+						<p class="textItem " style="top:44.696970%;left:7.352941%;width:37.745098%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Durham says the look and feel of the new headquarters
+						</p>
+						<p class="textItem " style="top:46.085859%;left:5.882353%;width:40.359477%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							building will set it apart from traditional office buildings. An
+						</p>
+						<p class="textItem " style="top:47.474747%;left:5.882353%;width:40.686275%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							abundance of glass, a narrow footprint and high ceilings will
+						</p>
+						<p class="textItem " style="top:48.863636%;left:5.882353%;width:42.973856%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							allow for more natural light, and the exposed support pillars will
+						</p>
+						<p class="textItem " style="top:50.252525%;left:5.882353%;width:31.862745%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							further add to the open feeling of the building.
+						</p>
+						<p class="textItem " style="top:51.641414%;left:7.352941%;width:37.091503%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							The headquarters is located on the JUMP campus – a
+						</p>
+						<p class="textItem " style="top:53.030303%;left:5.882353%;width:38.562092%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							four-block, 10 acre parcel. The innovative JUMP building
+						</p>
+						<p class="textItem " style="top:54.419192%;left:5.882353%;width:41.176471%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							and its surroundings including a lush park, walking path, and
+						</p>
+						<p class="textItem " style="top:55.808081%;left:5.882353%;width:40.686275%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							amphitheater will provide a unique and special backdrop for
+						</p>
+						<p class="textItem " style="top:57.196970%;left:5.882353%;width:23.202614%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Simplot Company’s headquarters.
+						</p>
+						<p class="textItem " style="top:58.585859%;left:7.352941%;width:36.928105%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							For Durham and the rest of the construction team, the
+						</p>
+						<p class="textItem " style="top:59.974747%;left:5.882353%;width:38.235294%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							significance of working on a project of this magnitude is
+						</p>
+						<p class="textItem " style="top:61.363636%;left:5.882353%;width:24.509804%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							something they will long-remember.
+						</p>
+						<p class="textItem " style="top:62.752525%;left:7.352941%;width:33.333333%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							“This isn’t just an office building, we’re building a
+						</p>
+						<p class="textItem " style="top:64.141414%;left:5.882353%;width:40.032680%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							headquarters and Simplot Company’s new home,” Durham
+						</p>
+						<p class="textItem " style="top:65.530303%;left:5.882353%;width:36.764706%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							said. “It’s been an honor to be involved in the project.”
+						</p>
+						<p class="textItem testString" style="top:70.580808%;left:5.882353%;width:61.928105%;height:3.156566%;font-size:0.900000em;color:#1F0002;font-family:Forza;">
+							<b>Simplot Company Headquarters Fun Facts</b>
+						</p>
+						<p class="textItem " style="top:75.252525%;left:52.777778%;width:39.869281%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• 3.3 million feet or 625 miles of electrical wire, which is
+						</p>
+						<p class="textItem " style="top:76.641414%;left:55.555556%;width:35.784314%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							enough to stretch to Portland and then onto Seattle.
+						</p>
+						<p class="textItem " style="top:78.030303%;left:52.777778%;width:35.457516%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• More than 3,700 electrical outlets and switches.
+						</p>
+						<p class="textItem " style="top:79.419192%;left:52.777778%;width:39.705882%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• More than 1,320 fire alarm and notification devices for
+						</p>
+						<p class="textItem " style="top:80.808081%;left:55.555556%;width:35.947712%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							the safety and protection of employees in the facility.
+						</p>
+						<p class="textItem " style="top:82.196970%;left:52.777778%;width:40.849673%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• More than 6,000 state-of-the-art LED light fixtures that
+						</p>
+						<p class="textItem " style="top:83.585859%;left:55.555556%;width:37.908497%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							will provide a 35 percent energy savings over traditional
+						</p>
+						<p class="textItem " style="top:84.974747%;left:55.555556%;width:16.993464%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							fluorescent style lighting.
+						</p>
+						<p class="textItem " style="top:86.363636%;left:52.777778%;width:37.908497%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• 50,000 tongue and groove boards to construct the
+						</p>
+						<p class="textItem " style="top:87.752525%;left:55.555556%;width:17.156863%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							acoustical radiant ceiling.
+						</p>
+						<p class="textItem " style="top:89.141414%;left:52.777778%;width:40.522876%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							• 8.4 million BTU’s of chilled water capacity or enough to
+						</p>
+						<p class="textItem " style="top:90.530303%;left:55.555556%;width:16.013072%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							cool 250 Boise homes.
+						</p>
+						<p class="textItem testString" style="top:29.545455%;left:7.516340%;width:32.679739%;height:1.388889%;font-size:0.400000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b><i>2015 construction of Simplot Company’s headquarters</i></b>
+						</p>
+						<p class="textItem " style="top:56.565657%;left:50.980392%;width:35.294118%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>This artist rendering shows what the new Simplot Company</i></b>
+						</p>
+						<p class="textItem " style="top:57.954545%;left:50.980392%;width:41.993464%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>headquarters will look like once completed. The nine-story building will</i></b>
+						</p>
+						<p class="textItem " style="top:59.343434%;left:50.980392%;width:39.869281%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>also include an annex joined by a sky bridge. The annex will include</i></b>
+						</p>
+						<p class="textItem " style="top:60.732323%;left:50.980392%;width:27.287582%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>meeting rooms, labs and a company cafeteria.</i></b>
+						</p>
+						<p class="textItem " style="top:29.545455%;left:52.941176%;width:26.797386%;height:1.388889%;font-size:0.400000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b><i>2015 construction of Simplot’s headquarters</i></b>
+						</p>
+                    <div id="581c4045-da39-44ec-bcbb-415ce15611fe" class="imageItem " style="top:35.227273%;left:50.326797%;width:44.934641%;height:20.707071%; background:url(&#39;./../common/pages-content/preview-gallery-day.png&#39;) center center no-repeat; background-size:cover;">
+                            <div class="contentItemHover"></div>
+  
+                    </div>
+		</div>
+
+		<div class="footer">
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-1.html">1</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-2.html">2</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-3.html">3</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-4.html">4</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink currPage" href="./page-5.html">5</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-6.html">6</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-7.html">7</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-8.html">8</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-9.html">9</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-10.html">10</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-11.html">11</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-12.html">12</a>
+
+				<a style="color:#675C53;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {
+  "581c4045-da39-44ec-bcbb-415ce15611fe": [
+    "./../common/pages-content/gallery-day.jpg"
+  ]
+};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

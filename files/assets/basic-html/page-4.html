@@ -1,0 +1,398 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>Simplot Newsletter Summer 2015</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+        CURRENT_PAGE = "4";
+        MAIN_PAGE     = "index.html";
+        FILES_FOLDER  = "files";
+
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        
+	    STATIC_FOLDER = ".";
+	    DYNAMIC_FOLDER = "./..";
+
+	    PUBLICATION_NAME = "Simplot Newsletter Summer 2015";
+
+	    CURRENT_VERSION = "2.6.40";
+
+	    LANGS = ['en','de','es','fi','fr','it','ja','nl','no','pl','pt','ru','sv','zh'];
+	    PUBLICATION_TYPE = "catalog";
+
+
+	var main = function () {
+
+		loadScript('./javascript/localizator.js',function(){});
+
+	    if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+	        var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+			var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+			loadScript(url,function(){});
+		}
+
+	}
+
+	if (!!window.addEventListener) {
+		window.addEventListener('load', main);
+	} else {
+		window.attachEvent('onload', main);
+	}
+
+	function loadScript(url, callback){
+		var head = document.getElementsByTagName("head")[0];
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = url;
+		head.appendChild(script);
+		if (script.readyState){
+			script.onreadystatechange = function(){
+				if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+					script.onreadystatechange = null;
+					callback();
+				}
+			};
+		} else {
+			script.onload = function(){
+				callback();
+			};
+		}
+	}
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C3C8C8,endColorstr=#C3C8C8);
+	zoom:1;
+	
+	background:rgb(195,200,200);
+	background:rgba(195,200,200, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px">
+	    <img id="bodyBg" class="bodyBg" src="./../flash/image/inner_bg.jpg" alt="Background Image" />
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+				<a class="tocButton toolbarLink internalLink" href="./toc.html" id="tocLink">
+					<img class="iconToolbar" src="styles/toc.png" alt="Table of Contents" />
+					<img class="iconToolbar mobile" src="styles/toc-mobile.png" alt="Table of Contents" />
+					<span id="tocLabel" class="titleTOCMenu"></span>
+				</a>
+            
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/Simplot Newsletter Summer 2015.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-3.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;4 / 12</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-5.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-3.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">4 / 12</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-5.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 612px; height: 792px; margin: 40px 0 0 -306px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0004.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:97.095960%;left:6.862745%;width:8.986928%;height:1.010101%;font-size:0.300000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b>4 Summer 2015</b>
+						</p>
+						<p class="textItem testString" style="top:4.671717%;left:5.882353%;width:78.267974%;height:4.924242%;font-size:1.400000em;color:#CE100D;font-family:Forza;">
+							<b>New Company Headquarters Mark</b>
+						</p>
+						<p class="textItem " style="top:8.207071%;left:5.882353%;width:79.248366%;height:4.924242%;font-size:1.400000em;color:#CE100D;font-family:Forza;">
+							<b>a New Chapter in Simplot’s History</b>
+						</p>
+						<p class="textItem testString" style="top:33.585859%;left:7.352941%;width:36.274510%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Ron Winans, Simplot’s then director of administrative
+						</p>
+						<p class="textItem " style="top:34.974747%;left:5.882353%;width:37.418301%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							services, spoke highly of the new building saying it had
+						</p>
+						<p class="textItem " style="top:36.363636%;left:5.882353%;width:42.810458%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							increased employee morale and work efficiency while providing
+						</p>
+						<p class="textItem " style="top:37.752525%;left:5.882353%;width:36.437908%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							an “open, uncrowded atmosphere that is relaxing and
+						</p>
+						<p class="textItem " style="top:39.141414%;left:5.882353%;width:17.810458%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							conducive to productivity.”
+						</p>
+						<p class="textItem " style="top:40.530303%;left:7.352941%;width:38.235294%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Employees moved into the new location in August 1975,
+						</p>
+						<p class="textItem " style="top:41.919192%;left:5.882353%;width:41.993464%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							marking the fifth time the Company’s corporate headquarters
+						</p>
+						<p class="textItem " style="top:43.308081%;left:5.882353%;width:38.235294%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							had changed. Simplot’s first headquarters was in a bank
+						</p>
+						<p class="textItem " style="top:44.696970%;left:5.882353%;width:41.666667%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							building in Burley, Idaho in the 1930s. During the early 1940s
+						</p>
+						<p class="textItem " style="top:46.085859%;left:5.882353%;width:40.359477%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							the headquarters moved to Caldwell, Idaho and in the mid-
+						</p>
+						<p class="textItem " style="top:47.474747%;left:5.882353%;width:39.379085%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							1940s the company located its headquarters in downtown
+						</p>
+						<p class="textItem " style="top:48.863636%;left:5.882353%;width:39.542484%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Boise in the First National Bank Building. In the 1950s the
+						</p>
+						<p class="textItem " style="top:50.252525%;left:5.882353%;width:41.013072%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							company purchased a building on Idaho Street in downtown
+						</p>
+						<p class="textItem " style="top:51.641414%;left:5.882353%;width:4.084967%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Boise.
+						</p>
+						<p class="textItem " style="top:53.030303%;left:7.352941%;width:39.869281%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							The company’s tenure at One Capital Center has been the
+						</p>
+						<p class="textItem " style="top:54.419192%;left:5.882353%;width:42.483660%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							longest in the company’s history, but now 40 years later a new
+						</p>
+						<p class="textItem " style="top:55.808081%;left:5.882353%;width:42.483660%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Simplot Headquarters – the sixth in the company’s history – is
+						</p>
+						<p class="textItem " style="top:57.196970%;left:5.882353%;width:42.647059%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							starting to take shape at the corner of 11th and Front Streets in
+						</p>
+						<p class="textItem " style="top:58.585859%;left:5.882353%;width:42.483660%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							downtown Boise. The nine story, 265,000 square foot building
+						</p>
+						<p class="textItem " style="top:59.974747%;left:5.882353%;width:39.869281%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							and adjacent 60,000 square foot annex, which will include
+						</p>
+						<p class="textItem " style="top:57.196970%;left:50.980392%;width:41.503268%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							meeting rooms, labs and a company cafeteria, is expected to
+						</p>
+						<p class="textItem " style="top:58.585859%;left:50.980392%;width:22.712418%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							be completed by the fall of 2016.
+						</p>
+						<p class="textItem " style="top:59.974747%;left:52.450980%;width:37.254902%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Simplot’s new headquarters is being built on the same
+						</p>
+						<p class="textItem " style="top:61.363636%;left:50.980392%;width:40.849673%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							property as the JUMP project, which is slated to open in the
+						</p>
+						<p class="textItem " style="top:62.752525%;left:50.980392%;width:39.215686%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							spring of 2016. Both the JUMP project and the corporate
+						</p>
+						<p class="textItem " style="top:64.141414%;left:50.980392%;width:40.686275%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							headquarters were designed by Adamson &amp; Associates and
+						</p>
+						<p class="textItem " style="top:65.530303%;left:50.980392%;width:27.941176%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							are being built by Hoffman Construction.
+						</p>
+						<p class="textItem " style="top:66.919192%;left:52.450980%;width:39.705882%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Construction on the new headquarters building began last
+						</p>
+						<p class="textItem " style="top:68.308081%;left:50.980392%;width:39.379085%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							summer with the start of the underground parking garage
+						</p>
+						<p class="textItem " style="top:69.696970%;left:50.980392%;width:35.947712%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							expansion to support the office and annex buildings.
+						</p>
+						<p class="textItem " style="top:71.085859%;left:52.450980%;width:40.359477%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Josh Durham, Hoffman’s project manager, said completing
+						</p>
+						<p class="textItem " style="top:72.474747%;left:50.980392%;width:40.522876%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							the seven-acre underground parking garage was one of the
+						</p>
+						<p class="textItem " style="top:73.863636%;left:50.980392%;width:27.450980%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							more challenging aspects of the project.
+						</p>
+						<p class="textItem " style="top:75.252525%;left:52.450980%;width:36.437908%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Because much of the proposed park at JUMP sits on
+						</p>
+						<p class="textItem " style="top:76.641414%;left:50.980392%;width:38.398693%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							top of the parking garage, the roof had to be completely
+						</p>
+						<p class="textItem " style="top:78.030303%;left:50.980392%;width:41.339869%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							waterproofed. Durham said the garage also has a dewatering
+						</p>
+						<p class="textItem " style="top:79.419192%;left:50.980392%;width:40.522876%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							system for groundwater and is built to withstand a 100-year
+						</p>
+						<p class="textItem " style="top:80.808081%;left:50.980392%;width:8.006536%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							flood event.
+						</p>
+						<p class="textItem " style="top:82.196970%;left:52.450980%;width:34.640523%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							In April, Hoffman started the vertical portion of the
+						</p>
+						<p class="textItem " style="top:83.585859%;left:50.980392%;width:18.300654%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							headquarters construction.
+						</p>
+						<p class="textItem " style="top:84.974747%;left:52.450980%;width:38.398693%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							“When you start going vertical, that’s a milestone for any
+						</p>
+						<p class="textItem " style="top:86.363636%;left:50.980392%;width:11.111111%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							project,” he said.
+						</p>
+						<p class="textItem " style="top:87.752525%;left:52.450980%;width:37.745098%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Over the next 9 months, more of the new headquarters
+						</p>
+						<p class="textItem " style="top:89.141414%;left:50.980392%;width:41.013072%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							will become visible. By early 2016, the tower structure will be
+						</p>
+						<p class="textItem " style="top:90.530303%;left:50.980392%;width:38.888889%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							substantially complete and the outer shell of the building
+						</p>
+						<p class="textItem " style="top:91.919192%;left:50.980392%;width:17.320261%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							should be well under way.
+						</p>
+						<p class="textItem testString" style="top:13.636364%;left:6.045752%;width:35.457516%;height:2.020202%;font-size:0.600000em;color:#1F0002;font-family:Forza;">
+							Nearly 40 years ago, Simplot Company
+						</p>
+						<p class="textItem " style="top:16.414141%;left:6.045752%;width:40.522876%;height:2.020202%;font-size:0.600000em;color:#1F0002;font-family:Forza;">
+							Treasure Valley Idaho employees moved into
+						</p>
+						<p class="textItem " style="top:19.191919%;left:6.045752%;width:40.522876%;height:2.020202%;font-size:0.600000em;color:#1F0002;font-family:Forza;">
+							a new state-of-the art headquarters building
+						</p>
+						<p class="textItem " style="top:21.969697%;left:6.045752%;width:34.967320%;height:2.020202%;font-size:0.600000em;color:#1F0002;font-family:Forza;">
+							at 999 Main Street in Boise. The newly
+						</p>
+						<p class="textItem " style="top:24.747475%;left:6.045752%;width:36.928105%;height:2.020202%;font-size:0.600000em;color:#1F0002;font-family:Forza;">
+							dubbed 14-story, One Capital Center was
+						</p>
+						<p class="textItem " style="top:27.525253%;left:6.045752%;width:40.522876%;height:2.020202%;font-size:0.600000em;color:#1F0002;font-family:Forza;">
+							Idaho’s largest building and its most modern
+						</p>
+						<p class="textItem " style="top:30.303030%;left:6.045752%;width:13.235294%;height:2.020202%;font-size:0.600000em;color:#1F0002;font-family:Forza;">
+							office building.
+						</p>
+						<p class="textItem testString" style="top:53.156566%;left:52.777778%;width:19.117647%;height:1.388889%;font-size:0.400000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b><i>One Capital Center - Circa 1976</i></b>
+						</p>
+						<p class="textItem " style="top:89.267677%;left:7.516340%;width:21.241830%;height:1.388889%;font-size:0.400000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b><i>Construction of One Capital Center</i></b>
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-1.html">1</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-2.html">2</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-3.html">3</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink currPage" href="./page-4.html">4</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-5.html">5</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-6.html">6</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-7.html">7</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-8.html">8</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-9.html">9</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-10.html">10</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-11.html">11</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-12.html">12</a>
+
+				<a style="color:#675C53;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,641 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>Simplot Newsletter Summer 2015</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+        CURRENT_PAGE = "7";
+        MAIN_PAGE     = "index.html";
+        FILES_FOLDER  = "files";
+
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        
+	    STATIC_FOLDER = ".";
+	    DYNAMIC_FOLDER = "./..";
+
+	    PUBLICATION_NAME = "Simplot Newsletter Summer 2015";
+
+	    CURRENT_VERSION = "2.6.40";
+
+	    LANGS = ['en','de','es','fi','fr','it','ja','nl','no','pl','pt','ru','sv','zh'];
+	    PUBLICATION_TYPE = "catalog";
+
+
+	var main = function () {
+
+		loadScript('./javascript/localizator.js',function(){});
+
+	    if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+	        var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+			var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+			loadScript(url,function(){});
+		}
+
+	}
+
+	if (!!window.addEventListener) {
+		window.addEventListener('load', main);
+	} else {
+		window.attachEvent('onload', main);
+	}
+
+	function loadScript(url, callback){
+		var head = document.getElementsByTagName("head")[0];
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = url;
+		head.appendChild(script);
+		if (script.readyState){
+			script.onreadystatechange = function(){
+				if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+					script.onreadystatechange = null;
+					callback();
+				}
+			};
+		} else {
+			script.onload = function(){
+				callback();
+			};
+		}
+	}
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C3C8C8,endColorstr=#C3C8C8);
+	zoom:1;
+	
+	background:rgb(195,200,200);
+	background:rgba(195,200,200, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px">
+	    <img id="bodyBg" class="bodyBg" src="./../flash/image/inner_bg.jpg" alt="Background Image" />
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+				<a class="tocButton toolbarLink internalLink" href="./toc.html" id="tocLink">
+					<img class="iconToolbar" src="styles/toc.png" alt="Table of Contents" />
+					<img class="iconToolbar mobile" src="styles/toc-mobile.png" alt="Table of Contents" />
+					<span id="tocLabel" class="titleTOCMenu"></span>
+				</a>
+            
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/Simplot Newsletter Summer 2015.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-6.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;7 / 12</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-8.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-6.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">7 / 12</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-8.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 612px; height: 792px; margin: 40px 0 0 -306px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0007.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:97.095960%;left:92.483660%;width:0.653595%;height:1.010101%;font-size:0.300000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b>7</b>
+						</p>
+						<p class="textItem " style="top:97.095960%;left:84.150327%;width:6.862745%;height:1.010101%;font-size:0.300000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b>Summer 2015</b>
+						</p>
+						<p class="textItem testString" style="top:5.050505%;left:5.882353%;width:23.039216%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>Q: A recent study from the Pew</b>
+						</p>
+						<p class="textItem " style="top:6.439394%;left:5.882353%;width:23.202614%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>Research Center found that 88</b>
+						</p>
+						<p class="textItem " style="top:7.828283%;left:5.882353%;width:25.816993%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>percent of scientists believe in the</b>
+						</p>
+						<p class="textItem " style="top:9.217172%;left:5.882353%;width:26.633987%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>safety of GMOs, yet only 37 percent</b>
+						</p>
+						<p class="textItem " style="top:10.606061%;left:5.882353%;width:25.816993%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>of the public believes that. What is</b>
+						</p>
+						<p class="textItem " style="top:11.994949%;left:5.882353%;width:20.915033%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>driving such a discrepancy?</b>
+						</p>
+						<p class="textItem testString" style="top:13.383838%;left:7.352941%;width:24.183007%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							A: There are a lot of cultural factors
+						</p>
+						<p class="textItem " style="top:14.772727%;left:5.882353%;width:24.346405%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							behind these kinds of moral panics.
+						</p>
+						<p class="textItem " style="top:16.161616%;left:5.882353%;width:25.816993%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							But the understanding on this issue is
+						</p>
+						<p class="textItem " style="top:17.550505%;left:5.882353%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							very shallow, which it is on almost any
+						</p>
+						<p class="textItem " style="top:18.939394%;left:5.882353%;width:24.673203%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							issue that is complicated, and this is
+						</p>
+						<p class="textItem " style="top:20.328283%;left:5.882353%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							a very complicated issue. This causes
+						</p>
+						<p class="textItem " style="top:21.843434%;left:5.882353%;width:25.980392%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							an emotional trigger.  People have the
+						</p>
+						<p class="textItem " style="top:23.232323%;left:5.882353%;width:25.000000%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							intuition that it is something scary or
+						</p>
+						<p class="textItem " style="top:24.621212%;left:5.882353%;width:26.143791%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							unnatural and ultimately this has to be
+						</p>
+						<p class="textItem " style="top:26.010101%;left:5.882353%;width:10.130719%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							turned around.
+						</p>
+						<p class="textItem " style="top:28.661616%;left:5.882353%;width:23.366013%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>Q: One of the things that comes</b>
+						</p>
+						<p class="textItem " style="top:30.050505%;left:5.882353%;width:25.816993%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>across in anti-GMO rhetoric is that</b>
+						</p>
+						<p class="textItem " style="top:31.439394%;left:5.882353%;width:25.980392%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>GMOs only contain Roundup-brand</b>
+						</p>
+						<p class="textItem " style="top:32.828283%;left:5.882353%;width:24.346405%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>glyphosate. How do we move the</b>
+						</p>
+						<p class="textItem " style="top:34.217172%;left:5.882353%;width:16.830065%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>focus away from that?</b>
+						</p>
+						<p class="textItem " style="top:35.606061%;left:7.352941%;width:25.326797%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							A: Part of the strategy is to come out
+						</p>
+						<p class="textItem " style="top:36.994949%;left:5.882353%;width:27.124183%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							with good, useful products and take the
+						</p>
+						<p class="textItem " style="top:38.383838%;left:5.882353%;width:27.777778%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							conversation in a different direction away
+						</p>
+						<p class="textItem " style="top:39.772727%;left:5.882353%;width:25.000000%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							from glyphosate and into developing
+						</p>
+						<p class="textItem " style="top:41.161616%;left:5.882353%;width:24.346405%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							countries with crops that have more
+						</p>
+						<p class="textItem " style="top:42.550505%;left:5.882353%;width:23.039216%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							obvious environmental and health
+						</p>
+						<p class="textItem " style="top:44.065657%;left:5.882353%;width:5.882353%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							benefits.
+						</p>
+						<p class="textItem " style="top:46.717172%;left:5.882353%;width:9.803922%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>Q: In a recent</b>
+						</p>
+						<p class="textItem testString" style="top:46.717172%;left:16.013072%;width:11.601307%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b><i>New York Times</i></b>
+						</p>
+						<p class="textItem " style="top:46.717172%;left:27.941176%;width:4.084967%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>story</b>
+						</p>
+						<p class="textItem " style="top:48.106061%;left:5.882353%;width:26.470588%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>you spoke about the benefits of the</b>
+						</p>
+						<p class="textItem " style="top:49.494949%;left:5.882353%;width:25.326797%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>GMO eggplant. Do you expect that</b>
+						</p>
+						<p class="textItem " style="top:50.883838%;left:5.882353%;width:23.366013%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>there will eventually be greater</b>
+						</p>
+						<p class="textItem " style="top:52.272727%;left:5.882353%;width:22.875817%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>acceptance of GMOs in foreign</b>
+						</p>
+						<p class="textItem " style="top:53.661616%;left:5.882353%;width:8.006536%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>countries?</b>
+						</p>
+						<p class="textItem " style="top:55.050505%;left:7.352941%;width:25.326797%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							A: Every country is different. Hungary
+						</p>
+						<p class="textItem " style="top:56.439394%;left:5.882353%;width:26.307190%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							has written anti-GMO language into its
+						</p>
+						<p class="textItem " style="top:57.828283%;left:5.882353%;width:24.836601%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							constitution and France and Italy are
+						</p>
+						<p class="textItem " style="top:59.217172%;left:5.882353%;width:25.326797%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							not far off. These are countries where
+						</p>
+						<p class="textItem " style="top:60.606061%;left:5.882353%;width:25.653595%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							the GMO issue is seen as threatening
+						</p>
+						<p class="textItem " style="top:61.994949%;left:5.882353%;width:24.836601%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							their cultural identity. They believe in
+						</p>
+						<p class="textItem " style="top:63.510101%;left:5.882353%;width:24.183007%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							their food culture and own sense of
+						</p>
+						<p class="textItem " style="top:64.898990%;left:5.882353%;width:25.326797%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							authenticity. But the tide is turning in
+						</p>
+						<p class="textItem " style="top:66.287879%;left:5.882353%;width:25.980392%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							areas like sub-Saharan Africa, and the
+						</p>
+						<p class="textItem " style="top:30.176768%;left:35.947712%;width:24.673203%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							need for GM technology as a part of
+						</p>
+						<p class="textItem " style="top:31.565657%;left:35.947712%;width:26.960784%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							more modern agriculture is increasingly
+						</p>
+						<p class="textItem " style="top:32.954545%;left:35.947712%;width:25.326797%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							accepted - this will do a lot to ensure
+						</p>
+						<p class="textItem " style="top:34.343434%;left:35.947712%;width:9.150327%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							food security.
+						</p>
+						<p class="textItem " style="top:36.994949%;left:35.947712%;width:4.738562%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>Q: The</b>
+						</p>
+						<p class="textItem " style="top:36.994949%;left:40.849673%;width:15.032680%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b><i>National Geographic</i></b>
+						</p>
+						<p class="textItem " style="top:36.994949%;left:56.045752%;width:6.209150%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>recently</b>
+						</p>
+						<p class="textItem " style="top:38.383838%;left:35.947712%;width:24.673203%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>published an article that focused</b>
+						</p>
+						<p class="textItem " style="top:39.772727%;left:35.947712%;width:24.673203%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>on the war on science and you’ve</b>
+						</p>
+						<p class="textItem " style="top:41.161616%;left:35.947712%;width:27.287582%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>said that the scientific community is</b>
+						</p>
+						<p class="textItem " style="top:42.550505%;left:35.947712%;width:27.614379%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>losing the battle. What is the science</b>
+						</p>
+						<p class="textItem " style="top:43.939394%;left:35.947712%;width:18.790850%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>community doing wrong?</b>
+						</p>
+						<p class="textItem " style="top:45.328283%;left:37.418301%;width:23.039216%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							A: One of the reasons people buy
+						</p>
+						<p class="textItem " style="top:46.717172%;left:35.947712%;width:27.941176%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							conspiracies about GMOs is because the
+						</p>
+						<p class="textItem " style="top:48.106061%;left:35.947712%;width:25.326797%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							industry is felt to be non-transparent.
+						</p>
+						<p class="textItem " style="top:49.494949%;left:35.947712%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							People are conditioned to feel scared
+						</p>
+						<p class="textItem " style="top:50.883838%;left:35.947712%;width:28.104575%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							about something being imposed on their
+						</p>
+						<p class="textItem " style="top:52.272727%;left:35.947712%;width:25.000000%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							food supply without them knowing it.
+						</p>
+						<p class="textItem " style="top:55.050505%;left:35.947712%;width:25.163399%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>Q: The anti-GMOs would likely say</b>
+						</p>
+						<p class="textItem " style="top:56.439394%;left:35.947712%;width:25.490196%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>that the obvious solution for more</b>
+						</p>
+						<p class="textItem " style="top:57.828283%;left:35.947712%;width:28.104575%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>transparency is to label GMOs. Is that</b>
+						</p>
+						<p class="textItem " style="top:59.217172%;left:35.947712%;width:9.803922%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>the solution?</b>
+						</p>
+						<p class="textItem " style="top:60.606061%;left:37.418301%;width:25.816993%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							A: People don’t even know what GMO
+						</p>
+						<p class="textItem " style="top:61.994949%;left:35.947712%;width:23.366013%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							stands for let alone what it means.
+						</p>
+						<p class="textItem " style="top:63.383838%;left:35.947712%;width:25.816993%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Those behind labeling initiatives really
+						</p>
+						<p class="textItem " style="top:64.772727%;left:35.947712%;width:24.836601%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							are aiming to scare people away, but
+						</p>
+						<p class="textItem " style="top:66.161616%;left:35.947712%;width:27.287582%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							how do you address the public’s right to
+						</p>
+						<p class="textItem " style="top:67.550505%;left:35.947712%;width:26.797386%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							know? You address it with transparency.
+						</p>
+						<p class="textItem " style="top:69.065657%;left:35.947712%;width:25.980392%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							As an industry, we should want people
+						</p>
+						<p class="textItem " style="top:70.454545%;left:35.947712%;width:26.307190%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							to preferentially seek out our products,
+						</p>
+						<p class="textItem " style="top:71.843434%;left:35.947712%;width:25.653595%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							so the idea that we would always want
+						</p>
+						<p class="textItem " style="top:73.232323%;left:35.947712%;width:24.346405%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							to hide the presence of every single
+						</p>
+						<p class="textItem " style="top:74.621212%;left:35.947712%;width:23.039216%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							modified or biotech trait forever is
+						</p>
+						<p class="textItem " style="top:76.010101%;left:35.947712%;width:24.346405%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							increasingly out of date. Let’s figure
+						</p>
+						<p class="textItem " style="top:77.398990%;left:35.947712%;width:25.326797%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							out ways to be maximally transparent
+						</p>
+						<p class="textItem " style="top:78.787879%;left:35.947712%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							and use this as a positive opportunity
+						</p>
+						<p class="textItem " style="top:80.176768%;left:35.947712%;width:24.673203%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							to communicate why these traits are
+						</p>
+						<p class="textItem " style="top:81.565657%;left:35.947712%;width:27.124183%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							important and why they are in the foods
+						</p>
+						<p class="textItem " style="top:82.954545%;left:35.947712%;width:26.470588%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							to start with. We should say, ‘this is our
+						</p>
+						<p class="textItem " style="top:84.343434%;left:35.947712%;width:27.614379%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							product, this is why we’re proud of it, this
+						</p>
+						<p class="textItem " style="top:85.732323%;left:35.947712%;width:27.941176%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							is what the traits are and this is why we’re
+						</p>
+						<p class="textItem " style="top:87.121212%;left:35.947712%;width:27.777778%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							doing it.’ And then when people demand
+						</p>
+						<p class="textItem " style="top:88.510101%;left:35.947712%;width:27.777778%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							the right to know, we can say, ‘it’s already
+						</p>
+						<p class="textItem " style="top:89.898990%;left:35.947712%;width:11.111111%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							on the package.’
+						</p>
+						<p class="textItem " style="top:30.050505%;left:66.013072%;width:27.124183%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>Q: As you’ve been talking about your</b>
+						</p>
+						<p class="textItem " style="top:31.439394%;left:66.013072%;width:25.490196%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>change from an anti-GMO activist,</b>
+						</p>
+						<p class="textItem " style="top:32.828283%;left:66.013072%;width:23.039216%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>you also continue to talk about</b>
+						</p>
+						<p class="textItem " style="top:34.217172%;left:66.013072%;width:26.470588%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>climate change. Why is it important</b>
+						</p>
+						<p class="textItem " style="top:35.606061%;left:66.013072%;width:20.751634%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>to continue linking the two?</b>
+						</p>
+						<p class="textItem " style="top:36.994949%;left:67.483660%;width:20.915033%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							A: The climate change issue is
+						</p>
+						<p class="textItem " style="top:38.383838%;left:66.013072%;width:24.019608%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							central to my own story. If it weren’t
+						</p>
+						<p class="textItem " style="top:39.772727%;left:66.013072%;width:25.000000%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							for having spent years defending the
+						</p>
+						<p class="textItem " style="top:41.161616%;left:66.013072%;width:26.143791%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							science on climate change and talking
+						</p>
+						<p class="textItem " style="top:42.550505%;left:66.013072%;width:26.633987%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							about a scientific consensus, I wouldn’t
+						</p>
+						<p class="textItem " style="top:43.939394%;left:66.013072%;width:26.143791%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							have changed my mind on GMOs. You
+						</p>
+						<p class="textItem " style="top:45.454545%;left:66.013072%;width:24.019608%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							can’t just go through life exercising
+						</p>
+						<p class="textItem " style="top:46.843434%;left:66.013072%;width:26.470588%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							confirmation bias and only assimilating
+						</p>
+						<p class="textItem " style="top:48.232323%;left:66.013072%;width:22.875817%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							information that conforms to your
+						</p>
+						<p class="textItem " style="top:49.621212%;left:66.013072%;width:24.019608%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							preexisting beliefs. The thing about
+						</p>
+						<p class="textItem " style="top:51.010101%;left:66.013072%;width:26.143791%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							science is that your personal intuitions
+						</p>
+						<p class="textItem " style="top:52.398990%;left:66.013072%;width:25.980392%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							are often wrong. I make a real point of
+						</p>
+						<p class="textItem " style="top:53.787879%;left:66.013072%;width:26.470588%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							challenging audiences with the climate
+						</p>
+						<p class="textItem " style="top:55.176768%;left:66.013072%;width:24.019608%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							change issue. If you’re going to ask
+						</p>
+						<p class="textItem " style="top:56.565657%;left:66.013072%;width:25.163399%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							science to prove that GMO crops are
+						</p>
+						<p class="textItem " style="top:57.954545%;left:66.013072%;width:25.163399%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							safe you should probably also accept
+						</p>
+						<p class="textItem " style="top:59.343434%;left:66.013072%;width:23.202614%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							that climate change is happening.
+						</p>
+						<p class="textItem " style="top:60.732323%;left:66.013072%;width:27.287582%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Almost every farmer will tell you that the
+						</p>
+						<p class="textItem " style="top:62.121212%;left:66.013072%;width:26.470588%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							weather is changing. They’ve seen that
+						</p>
+						<p class="textItem " style="top:63.510101%;left:66.013072%;width:26.470588%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							within generations of their families and
+						</p>
+						<p class="textItem " style="top:64.898990%;left:66.013072%;width:26.797386%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							they know how to change practices and
+						</p>
+						<p class="textItem " style="top:66.287879%;left:66.013072%;width:7.352941%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							adapt to it.
+						</p>
+						<p class="textItem " style="top:68.939394%;left:66.013072%;width:27.614379%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>Q: How can we personally change the</b>
+						</p>
+						<p class="textItem " style="top:70.328283%;left:66.013072%;width:13.071895%;height:1.641414%;font-size:0.450000em;color:#1F0002;font-family:Forza;">
+							<b>debate on GMOs?</b>
+						</p>
+						<p class="textItem " style="top:71.717172%;left:67.483660%;width:17.810458%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							A: Everybody has to be an
+						</p>
+						<p class="textItem " style="top:73.106061%;left:66.013072%;width:25.163399%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							ambassador. All of the social science
+						</p>
+						<p class="textItem " style="top:74.494949%;left:66.013072%;width:24.346405%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							research on communications shows
+						</p>
+						<p class="textItem " style="top:75.883838%;left:66.013072%;width:24.673203%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							that people believe their friends and
+						</p>
+						<p class="textItem " style="top:77.272727%;left:66.013072%;width:26.797386%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							family more than they believe any other
+						</p>
+						<p class="textItem " style="top:78.661616%;left:66.013072%;width:27.941176%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							source whether it be celebrities or talking
+						</p>
+						<p class="textItem " style="top:80.176768%;left:66.013072%;width:25.000000%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							heads. I think everyone has an active
+						</p>
+						<p class="textItem " style="top:81.565657%;left:66.013072%;width:24.183007%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							responsibility to talk about the work
+						</p>
+						<p class="textItem " style="top:82.954545%;left:66.013072%;width:24.509804%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							they do and explain it to people. It’s
+						</p>
+						<p class="textItem " style="top:84.343434%;left:66.013072%;width:26.633987%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							important to be involved in the broader
+						</p>
+						<p class="textItem " style="top:85.732323%;left:66.013072%;width:26.797386%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							sustainability conversation. Simplot has
+						</p>
+						<p class="textItem " style="top:87.121212%;left:66.013072%;width:24.509804%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							a broader role in the world and what
+						</p>
+						<p class="textItem " style="top:88.510101%;left:66.013072%;width:27.287582%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Simplot is doing must help protect food
+						</p>
+						<p class="textItem " style="top:89.898990%;left:66.013072%;width:20.261438%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							security for decades to come.
+						</p>
+						<p class="textItem " style="top:91.287879%;left:67.483660%;width:24.183007%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							To find out more about Mark Lynas,
+						</p>
+						<p class="textItem " style="top:92.676768%;left:66.013072%;width:2.614379%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							visit
+						</p>
+						<a class="linkTextItem  " href="http://www.marklynas.org/" target="_blank"  style="top:92.550505%;left:68.954248%;width:12.908497%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<b>www.marklynas.org</b>
+						</a>
+						<p class="textItem " style="top:92.676768%;left:81.862745%;width:0.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							.
+						</p>
+					<div id="0yxxz3-XxzI" class="videoItem youtube" style="top:2.904040%;left:34.803922%;width:61.274510%;height:26.641414%; background:url(&#39;./../common/pages-content/yt000000.jpg&#39;) center center no-repeat; background-size:cover;">
+                        <img class="play" alt="Play Video" src="./styles/videoIcon.png">
+					</div>
+		</div>
+
+		<div class="footer">
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-1.html">1</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-2.html">2</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-3.html">3</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-4.html">4</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-5.html">5</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-6.html">6</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink currPage" href="./page-7.html">7</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-8.html">8</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-9.html">9</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-10.html">10</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-11.html">11</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-12.html">12</a>
+
+				<a style="color:#675C53;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,506 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>Simplot Newsletter Summer 2015</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+        CURRENT_PAGE = "10";
+        MAIN_PAGE     = "index.html";
+        FILES_FOLDER  = "files";
+
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        
+	    STATIC_FOLDER = ".";
+	    DYNAMIC_FOLDER = "./..";
+
+	    PUBLICATION_NAME = "Simplot Newsletter Summer 2015";
+
+	    CURRENT_VERSION = "2.6.40";
+
+	    LANGS = ['en','de','es','fi','fr','it','ja','nl','no','pl','pt','ru','sv','zh'];
+	    PUBLICATION_TYPE = "catalog";
+
+
+	var main = function () {
+
+		loadScript('./javascript/localizator.js',function(){});
+
+	    if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+	        var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+			var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+			loadScript(url,function(){});
+		}
+
+	}
+
+	if (!!window.addEventListener) {
+		window.addEventListener('load', main);
+	} else {
+		window.attachEvent('onload', main);
+	}
+
+	function loadScript(url, callback){
+		var head = document.getElementsByTagName("head")[0];
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.src = url;
+		head.appendChild(script);
+		if (script.readyState){
+			script.onreadystatechange = function(){
+				if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+					script.onreadystatechange = null;
+					callback();
+				}
+			};
+		} else {
+			script.onload = function(){
+				callback();
+			};
+		}
+	}
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C3C8C8,endColorstr=#C3C8C8);
+	zoom:1;
+	
+	background:rgb(195,200,200);
+	background:rgba(195,200,200, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px">
+	    <img id="bodyBg" class="bodyBg" src="./../flash/image/inner_bg.jpg" alt="Background Image" />
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+				<a class="tocButton toolbarLink internalLink" href="./toc.html" id="tocLink">
+					<img class="iconToolbar" src="styles/toc.png" alt="Table of Contents" />
+					<img class="iconToolbar mobile" src="styles/toc-mobile.png" alt="Table of Contents" />
+					<span id="tocLabel" class="titleTOCMenu"></span>
+				</a>
+            
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/Simplot Newsletter Summer 2015.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-9.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;10 / 12</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-11.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-9.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">10 / 12</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-11.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 612px; height: 792px; margin: 40px 0 0 -306px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0010.jpg" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:97.095960%;left:6.535948%;width:9.150327%;height:1.010101%;font-size:0.300000em;color:#FFFFFF;font-family:Bryant Pro;">
+							<b>10 Summer 2015</b>
+						</p>
+						<p class="textItem testString" style="top:4.040404%;left:6.045752%;width:74.673203%;height:4.924242%;font-size:1.400000em;color:#FFFFFF;font-family:Forza;">
+							<b>Simplot Australia Embraces New</b>
+						</p>
+						<p class="textItem " style="top:7.449495%;left:6.045752%;width:43.300654%;height:4.924242%;font-size:1.400000em;color:#FFFFFF;font-family:Forza;">
+							<b>Company Branding</b>
+						</p>
+						<p class="textItem testString" style="top:12.752525%;left:7.352941%;width:38.398693%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							Simplot Australia has made significant progress with the
+						</p>
+						<p class="textItem " style="top:14.141414%;left:5.882353%;width:38.725490%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							revitalization of its brand identity, part of the wider global
+						</p>
+						<p class="textItem " style="top:15.530303%;left:5.882353%;width:41.830065%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							initiative to strengthen the Simplot brand and achieve greater
+						</p>
+						<p class="textItem " style="top:16.919192%;left:5.882353%;width:12.908497%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							global consistency.
+						</p>
+						<p class="textItem " style="top:18.308081%;left:7.189542%;width:34.967320%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							Simplot Australia (SAPL) began its transition to the
+						</p>
+						<p class="textItem " style="top:19.696970%;left:5.882353%;width:41.666667%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							Company’s new logo and branding at the beginning of 2015.
+						</p>
+						<p class="textItem " style="top:21.085859%;left:7.189542%;width:40.849673%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							Terry O’Brien, Managing Director, Simplot Australia said that
+						</p>
+						<p class="textItem " style="top:22.474747%;left:5.882353%;width:43.137255%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							the global brand revitalization project is helping to give Simplot
+						</p>
+						<p class="textItem " style="top:23.863636%;left:5.882353%;width:43.137255%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							Australia “a feeling of belonging and a clear direction to follow.”
+						</p>
+						<p class="textItem " style="top:25.252525%;left:7.189542%;width:37.091503%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							In April, SAPL updated all signage at its head office in
+						</p>
+						<p class="textItem " style="top:26.641414%;left:5.882353%;width:14.215686%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							Chifley Park, Victoria.
+						</p>
+						<p class="textItem " style="top:28.030303%;left:7.189542%;width:39.705882%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							In May, SAPL relocated its South East Asian head office in
+						</p>
+						<p class="textItem " style="top:29.419192%;left:5.882353%;width:42.973856%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							Kuala Lumpur to a purpose-built, open plan space designed to
+						</p>
+						<p class="textItem " style="top:30.808081%;left:5.882353%;width:43.137255%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							enhance collaboration. The Simplot Company’s new potato leaf
+						</p>
+						<p class="textItem " style="top:32.196970%;left:5.882353%;width:41.993464%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							design was incorporated into the office layout, and all Simplot
+						</p>
+						<p class="textItem " style="top:33.585859%;left:5.882353%;width:39.869281%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							Australia stationary was refreshed to reflect the new brand.
+						</p>
+						<p class="textItem " style="top:34.974747%;left:7.189542%;width:37.745098%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							SAPL’s next major project will be the replacement of all
+						</p>
+						<p class="textItem " style="top:36.363636%;left:5.882353%;width:43.137255%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							corporate signage at its sites. New site signage at the factory in
+						</p>
+						<p class="textItem " style="top:37.752525%;left:5.882353%;width:26.960784%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							Pakenham will be completed in August.
+						</p>
+						<p class="textItem " style="top:39.141414%;left:7.189542%;width:37.908497%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							“At Simplot Australia, we have experienced a number of
+						</p>
+						<p class="textItem " style="top:40.530303%;left:5.882353%;width:42.156863%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							changes over the past 12 months and the global alignment of
+						</p>
+						<p class="textItem " style="top:41.919192%;left:5.882353%;width:43.137255%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							purpose flowing from the re-branding initiative has come at the
+						</p>
+						<p class="textItem " style="top:43.308081%;left:5.882353%;width:40.686275%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							right time,” said Kaelene McLennan, SAPL corporate affairs,
+						</p>
+						<p class="textItem " style="top:44.696970%;left:5.882353%;width:30.392157%;height:1.515152%;font-size:0.460000em;color:#FFFFFF;font-family:Bryant Pro;">
+							sustainability and communications manager.
+						</p>
+						<p class="textItem " style="top:84.343434%;left:7.189542%;width:26.633987%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Isaiah Garcia, 11, a student at Lone Star
+						</p>
+						<p class="textItem " style="top:85.732323%;left:5.882353%;width:28.104575%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Middle School in Nampa, was the Special
+						</p>
+						<p class="textItem " style="top:87.121212%;left:5.882353%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Grand Prize winner in a global energy
+						</p>
+						<p class="textItem " style="top:88.510101%;left:5.882353%;width:24.836601%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							calendar coloring contest sponsored
+						</p>
+						<p class="textItem " style="top:89.898990%;left:5.882353%;width:25.163399%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							by Simplot Australia and the Simplot
+						</p>
+						<p class="textItem " style="top:91.287879%;left:5.882353%;width:20.424837%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							corporate energy department.
+						</p>
+						<p class="textItem " style="top:55.808081%;left:37.581699%;width:25.163399%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Garcia is the son of Maribel Garcia, a
+						</p>
+						<p class="textItem " style="top:57.196970%;left:36.111111%;width:25.653595%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							quality assurance auditor at the Idaho
+						</p>
+						<p class="textItem " style="top:58.585859%;left:36.111111%;width:11.601307%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Plant in Caldwell.
+						</p>
+						<p class="textItem " style="top:59.974747%;left:37.581699%;width:24.836601%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Don Sturtevant, Simplot’s director of
+						</p>
+						<p class="textItem " style="top:61.363636%;left:36.111111%;width:25.000000%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							energy, said the intent of the contest
+						</p>
+						<p class="textItem " style="top:62.752525%;left:36.111111%;width:27.287582%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							was to engage with employees and their
+						</p>
+						<p class="textItem " style="top:64.141414%;left:36.111111%;width:25.000000%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							families to think about saving energy
+						</p>
+						<p class="textItem " style="top:65.530303%;left:36.111111%;width:17.973856%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							both at home and at work.
+						</p>
+						<p class="textItem " style="top:66.919192%;left:37.581699%;width:22.549020%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							“Employees were given calendars
+						</p>
+						<p class="textItem " style="top:68.308081%;left:36.111111%;width:25.816993%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							to take home to their children to color
+						</p>
+						<p class="textItem " style="top:69.696970%;left:36.111111%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							and as a conversation starter with the
+						</p>
+						<p class="textItem " style="top:71.085859%;left:36.111111%;width:27.941176%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							children on ways to save energy,” he said.
+						</p>
+						<p class="textItem " style="top:72.474747%;left:37.581699%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Isaiah, who included an essay with his
+						</p>
+						<p class="textItem " style="top:73.863636%;left:36.111111%;width:24.836601%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							colored calendar, was singled out for
+						</p>
+						<p class="textItem " style="top:75.252525%;left:36.111111%;width:25.980392%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							the special grand prize because of his
+						</p>
+						<p class="textItem " style="top:76.641414%;left:36.111111%;width:26.797386%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							understanding about the limited supply
+						</p>
+						<p class="textItem " style="top:78.030303%;left:36.111111%;width:12.418301%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							of energy sources.
+						</p>
+						<p class="textItem " style="top:79.419192%;left:37.581699%;width:26.633987%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							“What really set Isaiah’s response apart
+						</p>
+						<p class="textItem " style="top:80.808081%;left:36.111111%;width:25.163399%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							from the others, was his letter talking
+						</p>
+						<p class="textItem " style="top:82.196970%;left:36.111111%;width:27.124183%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							about the importance of saving energy,”
+						</p>
+						<p class="textItem " style="top:83.585859%;left:36.111111%;width:10.620915%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Sturtevant said.
+						</p>
+						<p class="textItem " style="top:84.974747%;left:37.581699%;width:20.261438%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Here is Isaiah’s winning essay:
+						</p>
+						<p class="textItem testString" style="top:86.363636%;left:37.581699%;width:25.163399%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>“Saving energy is important because</i>
+						</p>
+						<p class="textItem " style="top:87.752525%;left:36.111111%;width:25.980392%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>we will save money and we will reduce</i>
+						</p>
+						<p class="textItem " style="top:89.141414%;left:36.111111%;width:24.346405%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>air pollution caused by burning coal</i>
+						</p>
+						<p class="textItem " style="top:90.530303%;left:36.111111%;width:24.183007%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>to generate electricity and from car</i>
+						</p>
+						<p class="textItem " style="top:91.919192%;left:36.111111%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>fumes. Energy isn’t free. Grownups in</i>
+						</p>
+						<p class="textItem " style="top:55.808081%;left:66.013072%;width:27.614379%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>our homes pay for the electricity we use,</i>
+						</p>
+						<p class="textItem " style="top:57.196970%;left:66.013072%;width:26.633987%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>so wasting energy is the same thing as</i>
+						</p>
+						<p class="textItem " style="top:58.585859%;left:66.013072%;width:26.470588%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>wasting money and we know that’s not</i>
+						</p>
+						<p class="textItem " style="top:59.974747%;left:66.013072%;width:27.614379%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>a good idea. Most of the energy sources</i>
+						</p>
+						<p class="textItem " style="top:61.363636%;left:66.013072%;width:26.307190%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>we depend on like natural gas can’t be</i>
+						</p>
+						<p class="textItem " style="top:62.752525%;left:66.013072%;width:26.797386%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>replaced. Once we use them up they’re</i>
+						</p>
+						<p class="textItem " style="top:64.141414%;left:66.013072%;width:25.653595%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>gone forever. Another problem is that</i>
+						</p>
+						<p class="textItem " style="top:65.530303%;left:66.013072%;width:27.941176%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>most forms of energy cause pollution, so</i>
+						</p>
+						<p class="textItem " style="top:66.919192%;left:66.013072%;width:26.960784%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>the more energy we save, the better off</i>
+						</p>
+						<p class="textItem " style="top:68.308081%;left:66.013072%;width:26.633987%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							<i>our pocketbooks and our earth will be.”</i>
+						</p>
+						<p class="textItem " style="top:69.696970%;left:67.320261%;width:25.326797%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Isaiah received a $75 gift card for his
+						</p>
+						<p class="textItem " style="top:71.085859%;left:66.013072%;width:25.980392%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							winning entry and his mother received
+						</p>
+						<p class="textItem " style="top:72.474747%;left:66.013072%;width:23.039216%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							a new digital, Wi-Fi capable NEST
+						</p>
+						<p class="textItem " style="top:73.863636%;left:66.013072%;width:24.673203%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							thermostat for the family home. The
+						</p>
+						<p class="textItem " style="top:75.252525%;left:66.013072%;width:23.529412%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							NEST is a learning thermostat that
+						</p>
+						<p class="textItem " style="top:76.641414%;left:66.013072%;width:26.633987%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							adapts to the occupants and their daily
+						</p>
+						<p class="textItem " style="top:78.030303%;left:66.013072%;width:5.882353%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							routines.
+						</p>
+						<p class="textItem " style="top:79.419192%;left:67.320261%;width:25.000000%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Isaiah said he planned on picking up
+						</p>
+						<p class="textItem " style="top:80.808081%;left:66.013072%;width:24.673203%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							a new video game with his winnings.
+						</p>
+						<p class="textItem " style="top:82.196970%;left:66.013072%;width:24.836601%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							Science is Isaiah’s favorite subject in
+						</p>
+						<p class="textItem " style="top:83.585859%;left:66.013072%;width:24.836601%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							school and saving energy has always
+						</p>
+						<p class="textItem " style="top:84.974747%;left:66.013072%;width:15.849673%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							been important to him.
+						</p>
+						<p class="textItem " style="top:86.363636%;left:67.320261%;width:25.490196%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							“We had a lot of entries which helped
+						</p>
+						<p class="textItem " style="top:87.752525%;left:66.013072%;width:27.124183%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							raise the awareness of energy efficiency
+						</p>
+						<p class="textItem " style="top:89.141414%;left:66.013072%;width:24.019608%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							at home and work,” Sturtevant said.
+						</p>
+						<p class="textItem " style="top:90.530303%;left:66.013072%;width:27.124183%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							“Maribel and Isaiah are a great example
+						</p>
+						<p class="textItem " style="top:91.919192%;left:66.013072%;width:25.816993%;height:1.515152%;font-size:0.460000em;color:#1F0002;font-family:Bryant Pro;">
+							of thinking globally and acting locally.”
+						</p>
+						<p class="textItem testString" style="top:76.010101%;left:5.882353%;width:25.490196%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>Isaiah Garcia, winner of the Simplot Global</i></b>
+						</p>
+						<p class="textItem " style="top:77.398990%;left:5.882353%;width:26.470588%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>Energy Coloring Contest, is pictured with his</i></b>
+						</p>
+						<p class="textItem " style="top:78.787879%;left:5.882353%;width:23.202614%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>mother Maribel Garcia, who is a quality</i></b>
+						</p>
+						<p class="textItem " style="top:80.176768%;left:5.882353%;width:21.732026%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>assurance auditor at the Idaho Plant</i></b>
+						</p>
+						<p class="textItem " style="top:81.565657%;left:5.882353%;width:6.862745%;height:1.388889%;font-size:0.400000em;color:#1F0002;font-family:Bryant Pro;">
+							<b><i>in Caldwell.</i></b>
+						</p>
+						<p class="textItem " style="top:48.989899%;left:5.882353%;width:49.183007%;height:3.156566%;font-size:0.900000em;color:#1F0002;font-family:Forza;">
+							<b>Son of Idaho Plant Employee wins</b>
+						</p>
+						<p class="textItem " style="top:51.767677%;left:5.882353%;width:57.679739%;height:3.156566%;font-size:0.900000em;color:#1F0002;font-family:Forza;">
+							<b>Simplot Global Energy Coloring Contest</b>
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-1.html">1</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-2.html">2</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-3.html">3</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-4.html">4</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-5.html">5</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-6.html">6</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-7.html">7</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-8.html">8</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-9.html">9</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink currPage" href="./page-10.html">10</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-11.html">11</a>
+					<a style="color:#675C53;" class="footerNavLink internalLink " href="./page-12.html">12</a>
+
+				<a style="color:#675C53;" class="footerLink" href="./flipbook.html" target="_blank">
+					<span id="poweredBy"></span>&nbsp;FlippingBook
+				</a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
